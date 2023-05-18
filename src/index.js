@@ -6,11 +6,12 @@ module.exports = function (context, options) {
       return {
         module: {
           rules: [
-            {
-              test: /\.csv$/,
-              use: [getJSLoader(isServer), 'csv-loader'],
-            },
-          ],
+                {
+                  test: /\.csv$/,
+                  loader: 'csv-loader',
+                  options
+                }
+              ],
         },
       };
     },

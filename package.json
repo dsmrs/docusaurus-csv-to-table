@@ -1,0 +1,28 @@
+{
+  "name": "docusaurus-csv-loader",
+  "version": "0.1.0",
+  "description": "As simple CSV Loader for docusaurus to be able, for example, to use CSV-to-Table react component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmrs/docusaurus-csv-to-table.git"
+  },
+  "keywords": [
+    "CSV",
+    "Docusaurus",
+    "React",
+    "Webpack"
+  ],
+  "author": "Dorian Somers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsmrs/docusaurus-csv-to-table/issues"
+  },
+  "homepage": "https://github.com/dsmrs/docusaurus-csv-to-table#readme",
+  "dependencies": {
+    "csv-loader": "^3.0.5"
+  }
+}
