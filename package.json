@@ -1,6 +1,6 @@
 {
-  "name": "docusaurus-csv-loader",
-  "version": "0.1.0",
+  "name": "docusaurus-csv-to-table",
+  "version": "0.1.1",
   "description": "As simple CSV Loader for docusaurus to be able, for example, to use CSV-to-Table react component",
   "main": "src/index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/dsmrs/docusaurus-csv-to-table#readme",
   "dependencies": {
-    "csv-loader": "^3.0.5"
+    "raw-loader": "^4.0.2"
   }
 }

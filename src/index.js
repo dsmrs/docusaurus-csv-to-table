@@ -8,7 +8,7 @@ module.exports = function (context, options) {
           rules: [
                 {
                   test: /\.csv$/,
-                  loader: 'csv-loader',
+                  loader: 'raw-loader',
                   options
                 }
               ],
