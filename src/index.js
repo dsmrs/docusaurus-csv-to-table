@@ -7,9 +7,15 @@ module.exports = function (context, options) {
         module: {
           rules: [
                 {
-                  test: /\.csv$/,
-                  loader: 'raw-loader',
-                  options
+			        test: /\.csv$/i,
+			        use: [
+					          {
+                      loader: 'raw-loader',
+							        options: {
+									      esModule: false,
+                      },
+					          },
+					        ],
                 }
               ],
         },

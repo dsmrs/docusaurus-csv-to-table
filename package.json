@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-csv-to-table",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "As simple CSV Loader for docusaurus to be able, for example, to use CSV-to-Table react component",
   "main": "src/index.js",
   "scripts": {
